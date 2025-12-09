@@ -16,9 +16,9 @@ function App() {
       {/* The clicked page will render here */}
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/" element={<About />} />
-        <Route path="/" element={<Projects />} />
-        <Route path="/" element={<Contact />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Projects" element={<Projects />} />
+        <Route path="/Contact" element={<Contact />} />
       </Routes>
 
       {/* Footer will go here */}
