@@ -20,5 +20,35 @@ body {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 2rem; /* Adds left ad right spacing */
+  padding: 0 2rem; /* Adds left and right spacing */
+}
+
+.btn {
+  padding: 0.82rem 3.5rem;
+  border-radius: 0.7rem;
+  border: none;  
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn-primary {
+  color: var(--text-primary);
+  background-color: #0050ff;
+}
+.btn-primary:hover {
+  background-color: #1e40Af;
+}
+
+.btn-ghost {
+  color: var(--text-blue);
+  background-color: transparent;
+  border: solid;
+  border-width: 1px;
+}
+.btn-ghost:hover {
+  background-color: #0f297d;
 }

@@ -1,0 +1,42 @@
+
+.hero {
+    margin-top: 12rem;
+}
+
+.hero-inner {
+    display: flex;
+    width: 100%;
+}
+
+.hero-text h1 {
+    color: white;
+    font-size: 2.7rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.hero-text h2 {
+    margin-top: 0.7rem;
+    margin-bottom: 0;
+    color: var(--text-blue);
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.hero-text p {
+    margin-top: 1.5rem;
+    max-width: 400px;
+    color: var(--text-muted);
+}
+
+.hero-buttons {
+    margin-top: 10rem;
+    max-width: 26rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-profile-icon {
+    margin-left: 6rem;
+    filter: drop-shadow(0 0 20px rgba(255,255,255,0.1)); /* This will give the profile icon a glow */
+}
