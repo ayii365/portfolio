@@ -7,6 +7,9 @@
   --text-muted: #b5b8c9;
   --card-bg: rgba(255, 255, 255, 0.02);
   --card-border: rgba(255, 255, 255, 0.08);
+  --glow: #3b82f6;
+  --section-heading-size: 3rem;
+  --sectopm-subheading-size: 2.3rem;
 
 }
 
@@ -23,11 +26,13 @@ body {
   padding: 0 2rem; /* Adds left and right spacing */
 }
 
+/* Button styling (start) */
 .btn {
-  padding: 0.82rem 3.5rem;
+  width: 15rem;
+  height: 4.5rem;
   border-radius: 0.7rem;
   border: none;  
-  font-size: 1.1rem;
+  font-size: 1.6rem;
   font-weight: bold;
 }
 
@@ -51,4 +56,27 @@ body {
 }
 .btn-ghost:hover {
   background-color: #0f297d;
+}
+/* Button styling (end) */
+
+
+/* Text styling */
+p {
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+
+/* Home Page styling */
+.section-heading {
+  margin: 0;
+  color: var(--text-primary);
+  font-size: var(--section-heading-size);
+  font-weight: 600;
+}
+
+.section-subheading {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: var(--sectopm-subheading-size);
+  font-weight: 400;
 }

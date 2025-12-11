@@ -22,13 +22,13 @@
 .nav-right {
     display: flex;
     flex-direction: row;
-    gap: 2.5rem; /*The spacing between the content */
+    gap: 3rem; /*The spacing between the content */
 }
 
 .nav-link {
     color: var(--text-primary);
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 .nav-link:hover {
