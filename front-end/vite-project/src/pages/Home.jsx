@@ -1,12 +1,13 @@
 import Hero from "../components/sections/Hero.jsx"
 import Skills from "../components/sections/Skills.jsx"
+import ProjectPreview from "../components/sections/ProjectPreview.jsx";
 
 function Home() {
     return (
         <main>
             <Hero />
             <Skills />
-            {/* Projects */}
+            <ProjectPreview />
             {/* ContactCTA */}
         </main>
 
