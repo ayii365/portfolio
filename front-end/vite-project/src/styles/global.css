@@ -10,6 +10,7 @@
   --glow: #3b82f6;
   --section-heading-size: 3rem;
   --sectopm-subheading-size: 2.3rem;
+  --img-border: 1rem;
 
 }
 
@@ -70,10 +71,11 @@ body {
 /* Button styling (end) */
 
 
-/* Text styling */
+/* paragraph styling */
 p {
   font-size: 1.4rem;
   line-height: 2rem;
+  color: var(--text-muted);
 }
 
 /* Home Page styling */
