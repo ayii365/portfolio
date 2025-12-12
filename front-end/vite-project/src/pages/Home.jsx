@@ -1,6 +1,8 @@
-import Hero from "../components/sections/Hero.jsx"
-import Skills from "../components/sections/Skills.jsx"
+import Hero from "../components/sections/Hero.jsx";
+import Skills from "../components/sections/Skills.jsx";
 import ProjectPreview from "../components/sections/ProjectPreview.jsx";
+import ContactCTA from "../components/sections/ContactCTA.jsx";
+
 
 function Home() {
     return (
@@ -8,7 +10,7 @@ function Home() {
             <Hero />
             <Skills />
             <ProjectPreview />
-            {/* ContactCTA */}
+            <ContactCTA />
         </main>
 
 

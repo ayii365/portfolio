@@ -72,7 +72,7 @@ body {
 
 
 /* paragraph styling */
-p {
+p, .text-style {
   font-size: 1.4rem;
   line-height: 2rem;
   color: var(--text-muted);

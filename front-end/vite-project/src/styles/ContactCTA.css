@@ -1,0 +1,24 @@
+
+.contactCTA-inner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10rem;
+}
+
+.contactCTA-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bold-text {
+    font-weight: 700;
+}
+
+.contactCTA-btns {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 2.5rem;
+}

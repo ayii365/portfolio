@@ -8,6 +8,7 @@ function ProjectPreview() {
         <div className="project-preview">
             <div className="container">
                 <div className="project-preview-inner">
+
                     <div className="project-preview-heading">
                         <h1 className="section-heading">Projects</h1>
                         <h2 className="section-subheading">A selection of my development work</h2>
@@ -31,6 +32,7 @@ function ProjectPreview() {
                             <img src={medicalClinicWebImg} />
                         </div>
                     </div>
+
                     <div className="project-preview-card glow-card" >
                         <div className="card-img">
                             <img src={happyPetsWebImg} />
@@ -49,6 +51,7 @@ function ProjectPreview() {
                             <button className="btn btn-primary">Read more</button>
                         </div>
                     </div>
+
                     <div className="project-preview-card glow-card" >
                         <div className="card-text-content">
                             <h2>Scoreboard App (Scrimba Course Project)</h2>
@@ -66,6 +69,11 @@ function ProjectPreview() {
                         <div className="card-img">
                             <img src={scoreBoardWebImg} />
                         </div>
+                    </div>
+
+                    <div className="view-more">
+                        <h1 className="section-subheading">View more projects I've worked on</h1>
+                        <button className="btn btn-primary">View All</button>
                     </div>
                 </div>
             </div>
