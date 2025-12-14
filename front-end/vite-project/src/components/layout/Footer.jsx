@@ -19,8 +19,8 @@ function Footer() {
                         <NavLink to="/" className="nav-link">Contact</NavLink>  
                     </div>
                     <div className="icon-links">
-                        <img className="footer-icons" src={githubIcon} />
-                        <img className="footer-icons" src={linkedInIcon} />
+                        <a href="https://github.com/ayii365" target="_blank"><img className="footer-icons" src={githubIcon} /></a>
+                        <a href="https://www.linkedin.com/in/ayii-madut/" target="_blank"><img className="footer-icons" src={linkedInIcon} /></a>
                     </div>
                     <div className="rights-res">
                         <p>© 2025 Ayii. All rights reserved.</p>
