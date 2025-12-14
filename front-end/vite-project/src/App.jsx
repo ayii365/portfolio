@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/layout/Navbar.jsx'; // Importing the Navigation bar component
+import Footer from './components/layout/Footer.jsx'; // Importing the Footer component
 
 // Importing all the main pages
 import Home from './pages/Home.jsx';
@@ -21,7 +22,8 @@ function App() {
         <Route path="/Contact" element={<Contact />} />
       </Routes>
 
-      {/* Footer will go here */}
+      {/* Footer here */}
+      <Footer />
     </>
   )
 }
