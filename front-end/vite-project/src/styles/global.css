@@ -28,6 +28,7 @@ body {
   margin: 0;
   font-family: "Inter";
   background-color: var(--bg-main);
+  /*background-image: url("../assets/images/stars-galaxy.gif"); */
 }
 
 .container {

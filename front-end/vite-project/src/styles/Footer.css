@@ -1,7 +1,10 @@
 
 .footer {
-    margin-top: 8rem;
+    margin-top: 20rem;
     margin-bottom: 5rem;
+    
+    background: rgba(0, 2, 53, 0.75);
+    border-top: 0.2rem solid rgba(255, 255, 255, 0.08);
 }
 
 .footer-inner {
@@ -11,19 +14,8 @@
     align-items: center;
 }
 
-.h-line {
-    width: 100%;
-
-    border-radius: 0.1rem;
-    border: solid;
-    border-width: 0.1rem;
-    border-color: rgb(255,255,255,5%);
-    background-color: rgb(255,255,255,2%);
-    box-shadow: 0 0 0.2rem  var(--glow);
-}
-
 .footer-links {
-    margin-top: 4rem;
+    margin-top: 2rem;
     display: flex;
     gap: 4rem;
     align-items: center;

@@ -8,7 +8,6 @@ function Footer() {
         <div className="footer">
             <div className="container">
                 <div className="footer-inner">
-                    <hr className="h-line"></hr>
                     <div className="footer-links">
                         <NavLink to="/" className="nav-link">Home</NavLink>
                         <p>|</p>
