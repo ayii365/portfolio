@@ -5,6 +5,8 @@ function ContactCTA() {
         <div className="contactCTA">
             <div className="container">
                 <div className="contactCTA-inner">
+                    <div className="section-divider"></div>
+
                     <div className="contactCTA-text">
                         <h1 className="section-heading">Get in Touch</h1>
                         <p>

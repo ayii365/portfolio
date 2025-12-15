@@ -1,12 +1,15 @@
+import AboutContent from "../components/sections/AboutContent.jsx";
+import ContactCTA from "../components/sections/ContactCTA.jsx";
 
 
 function About() {
     return (
-        <>
-            <h1>
-                About
-            </h1>
-        </>
+        <main>
+            <AboutContent />
+            <ContactCTA />
+        </main>
+
+
     );
 }
 

@@ -13,9 +13,9 @@ function Navbar() {
 
                     <div className="nav-right">
                         <NavLink to="/" className="nav-link">Home</NavLink>
-                        <NavLink to="/" className="nav-link">About</NavLink>
-                        <NavLink to="/" className="nav-link">Projects</NavLink>
-                        <NavLink to="/" className="nav-link">Contact</NavLink>
+                        <NavLink to="/About" className="nav-link">About</NavLink>
+                        <NavLink to="/Projects" className="nav-link">Projects</NavLink>
+                        <NavLink to="/Contact" className="nav-link">Contact</NavLink>
                     </div>
 
                 </div>

@@ -93,3 +93,10 @@ p, .text-style {
   font-size: var(--sectopm-subheading-size);
   font-weight: 400;
 }
+
+/* Section divider */
+.section-divider {
+    height: 1px;
+    background: rgba(255, 255, 255, 0.08);
+    margin: 4rem 0;
+}
