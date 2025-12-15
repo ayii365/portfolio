@@ -1,0 +1,48 @@
+
+.project-cards {
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+}
+
+.project-cards-inner {
+    width: 100%;
+}
+
+.project-card {
+    padding: 4rem ;
+    margin-bottom: 10rem;
+}
+
+.project-media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-video {
+    margin-top: 1rem;
+    border-radius: var(--img-border);
+    border: solid 10px black;
+    height: 500px;
+    width: 800px;
+}
+
+.project-heading {
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    color: var(--text-primary);
+    font-weight: 500;
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+.project-subheading {
+    color: var(--text-primary);
+    margin-bottom: 0.6rem;
+}
+
+.project-p {
+    margin-top: 0;
+    margin-bottom: 4rem;
+    width: 800px;
+}

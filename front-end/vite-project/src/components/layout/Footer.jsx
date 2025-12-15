@@ -11,11 +11,11 @@ function Footer() {
                     <div className="footer-links">
                         <NavLink to="/" className="nav-link">Home</NavLink>
                         <p>|</p>
-                        <NavLink to="/" className="nav-link">About</NavLink>
+                        <NavLink to="/About" className="nav-link">About</NavLink>
                         <p>|</p>
-                        <NavLink to="/" className="nav-link">Projects</NavLink>
+                        <NavLink to="/Projects" className="nav-link">Projects</NavLink>
                         <p>|</p>
-                        <NavLink to="/" className="nav-link">Contact</NavLink>  
+                        <NavLink to="/Contact" className="nav-link">Contact</NavLink>  
                     </div>
                     <div className="icon-links">
                         <a href="https://github.com/ayii365" target="_blank"><img className="footer-icons" src={githubIcon} /></a>

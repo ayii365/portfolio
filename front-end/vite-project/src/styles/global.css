@@ -75,7 +75,7 @@ body {
 /* paragraph styling */
 p, .text-style {
   font-size: 1.4rem;
-  line-height: 2rem;
+  line-height: 1.5;
   color: var(--text-muted);
 }
 

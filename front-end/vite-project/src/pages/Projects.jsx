@@ -1,12 +1,14 @@
-
+import ProjectsIntro from "../components/sections/ProjectsIntro.jsx";
+import ProjectCards from "../components/sections/ProjectCards.jsx";
+import ContactCTA from "../components/sections/ContactCTA.jsx";
 
 function Projects() {
     return (
-        <>
-            <h1>
-                Projects
-            </h1>
-        </>
+        <main>
+            <ProjectsIntro />
+            <ProjectCards />
+            <ContactCTA />
+        </main>
     );
 }
 
