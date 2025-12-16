@@ -1,12 +1,12 @@
-
+import ContactIntro from "../components/sections/ContactIntro.jsx";
+import ContactForm from "../components/sections/ContactForm.jsx";
 
 function Contact() {
     return (
-        <>
-            <h1>
-                Contact
-            </h1>
-        </>
+        <main>
+            <ContactIntro />
+            <ContactForm />
+        </main>
     );
 }
 

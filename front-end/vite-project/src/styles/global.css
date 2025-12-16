@@ -8,8 +8,8 @@
   --card-bg: rgba(255, 255, 255, 0.02);
   --card-border: rgba(255, 255, 255, 0.08);
   --glow: #3b82f6;
-  --section-heading-size: 3rem;
-  --sectopm-subheading-size: 2.3rem;
+  --section-heading-size: 2.8rem;
+  --sectopm-subheading-size: 2rem;
   --img-border: 1rem;
 
 }
@@ -41,7 +41,7 @@ body {
 /* Button styling (start) */
 .btn {
   width: 15rem;
-  height: 4.5rem;
+  height: 4rem;
   border-radius: 0.7rem;
   border: none;  
   font-size: 1.6rem;
