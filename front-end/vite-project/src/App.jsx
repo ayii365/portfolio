@@ -8,18 +8,22 @@ import About from './pages/About.jsx';
 import Projects from './pages/Projects.jsx';
 import Contact from './pages/Contact.jsx';
 
+// Importing ScrollTop function to automatically scroll to the top when a page is loaded
+import ScrollTop from './components/layout/ScrollTop.jsx';
+
 function App() {
   return (
     <>
       {/* Navigation bar here */}
       <Navbar />
+      <ScrollTop />
 
       {/* The clicked page will render here */}
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/About" element={<About />} />
-        <Route path="/Projects" element={<Projects />} />
-        <Route path="/Contact" element={<Contact />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
 
       {/* Footer here */}
