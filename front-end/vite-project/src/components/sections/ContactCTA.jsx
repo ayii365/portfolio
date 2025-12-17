@@ -21,7 +21,14 @@ function ContactCTA() {
                     </div>
                     <div className="contactCTA-btns">
                         <Link to="/contact" className="btn btn-primary">Contact</Link>
-                        <button className="btn btn-ghost">Download CV</button>
+                        <a 
+                            href="/Ayii_Madut_Resume.pdf"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="btn btn-ghost"
+                        >
+                            Download CV
+                        </a>
                     </div>
                 </div>
             </div>

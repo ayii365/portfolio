@@ -13,9 +13,27 @@ function ContactIntro() {
                             Feel free to reach out for collaboration, questions or opportunities.
                         </p>
                         <ul>
-                            <li className="text-style"><span className="bold-text">Email:</span> ayii365madut@gmail.com</li>
+                            <li className="text-style">
+                                <span className="bold-text">Email:</span> ayii365madut@gmail.com
+                            </li>
                             <br />
-                            <li className="text-style"><span className="bold-text">LinkedIn:</span> <a href="https://www.linkedin.com/in/ayii-madut/">https://www.linkedin.com/in/ayii-madut/</a></li>
+
+                            <li className="text-style">
+                                <span className="bold-text">LinkedIn: </span> 
+                                <a href="https://www.linkedin.com/in/ayii-madut/" target="_blank">https://www.linkedin.com/in/ayii-madut/</a>
+                            </li>
+                            <br />
+
+                            <li className="text-style">
+                                <span className="bold-text">Resume: </span> 
+                                <a 
+                                    href="/Ayii_Madut_Resume.pdf"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                Ayii_Madut_Resume.pdf
+                                </a>
+                            </li>
                         </ul>
                         {/* (End) */}
                     </div>
