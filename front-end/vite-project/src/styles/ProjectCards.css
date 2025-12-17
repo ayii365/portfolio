@@ -20,11 +20,10 @@
 }
 
 .project-video {
-    margin-top: 1rem;
     border-radius: var(--img-border);
-    border: solid 10px black;
-    height: 500px;
-    width: 800px;
+    border: solid 5px gray;
+    height: 100%;
+    width: 100%;
 }
 
 .project-heading {

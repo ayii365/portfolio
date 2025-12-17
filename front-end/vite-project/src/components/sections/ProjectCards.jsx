@@ -1,7 +1,10 @@
 import "../../styles/ProjectCards.css";
-import medicalClinicWebImg from "../../assets/images/project/medical-clinic.png";
-import happyPetsWebImg from "../../assets/images/project/happy-pets-short.png";
-import scoreBoardWebImg from "../../assets/images/project/score-board.png";
+
+/* Project videos */
+import medicalClinicVid from "../../assets/videos/my-clinic-frontend.mp4";
+import happyPetsVid from "../../assets/videos/happy-pets-video.mp4";
+import scoreBoard from "../../assets/videos/score-board-video.mp4";
+
 
 function ProjectCards() {
     return (
@@ -12,7 +15,10 @@ function ProjectCards() {
                     {/* Medical Clinic Project */}
                     <div className="project-card glow-card">
                         <div className="project-media">
-                            <img className="project-video" src={medicalClinicWebImg} />
+                            <video className="project-video" controls>
+                                <source src={medicalClinicVid} type="video/mp4">
+                                </source>
+                            </video>
                             <h2 className="project-heading">Medical Clinic Front-end (React)</h2>
                         </div>
                         <div className="project-text">
@@ -44,7 +50,10 @@ function ProjectCards() {
                     {/* Pet Volunteer Project */}
                     <div className="project-card glow-card">
                         <div className="project-media">
-                            <img className="project-video" src={happyPetsWebImg} />
+                            <video className="project-video" controls>
+                                <source src={happyPetsVid} type="video/mp4">
+                                </source>
+                            </video>
                             <h2 className="project-heading">Pet Adoption Volunteer Website (Full-stack Group Project)</h2>
                         </div>
                         <div className="project-text">
@@ -76,7 +85,10 @@ function ProjectCards() {
                     {/* Scoreboard App Project */}
                     <div className="project-card glow-card">
                         <div className="project-media">
-                            <img className="project-video" src={scoreBoardWebImg} />
+                            <video className="project-video" controls>
+                                <source src={scoreBoard} type="video/mp4">
+                                </source>
+                            </video>
                             <h2 className="project-heading">Scoreboard App (Scrimba Course Project)</h2>
                         </div>
                         <div className="project-text">
