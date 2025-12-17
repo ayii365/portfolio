@@ -1,7 +1,9 @@
-import "../../styles/ProjectPreview.css"
-import medicalClinicWebImg from "../../assets/images/project/medical-clinic.png"
-import happyPetsWebImg from "../../assets/images/project/happy-pets-short.png"
-import scoreBoardWebImg from "../../assets/images/project/score-board.png"
+import "../../styles/ProjectPreview.css";
+import medicalClinicWebImg from "../../assets/images/project/medical-clinic.png";
+import happyPetsWebImg from "../../assets/images/project/happy-pets-short.png";
+import scoreBoardWebImg from "../../assets/images/project/score-board.png";
+
+import { Link } from 'react-router-dom';
 
 function ProjectPreview() {
     return (
@@ -26,7 +28,7 @@ function ProjectPreview() {
                                 This project strengthened my understanding of component-based design 
                                 and modern front-end workflows.
                             </p>
-                            <button className="btn btn-primary">Read more</button>
+                            <Link to="/projects#medical-clinic" className="btn btn-primary">Read more</Link>
                         </div>
                         <div className="card-img">
                             <img src={medicalClinicWebImg} />
@@ -48,7 +50,7 @@ function ProjectPreview() {
                                 <br />
                                 This project improved my teamwork and full-stack development skills.
                             </p>
-                            <button className="btn btn-primary">Read more</button>
+                            <Link to="/projects#happy-pets" className="btn btn-primary">Read more</Link>
                         </div>
                     </div>
 
@@ -64,7 +66,7 @@ function ProjectPreview() {
                                 Published the final app on Netlify and enhanced the design for better 
                                 mobile usability.
                             </p>
-                            <button className="btn btn-primary">Read more</button>
+                            <Link to="/projects#score-board" className="btn btn-primary">Read more</Link>
                         </div>
                         <div className="card-img">
                             <img src={scoreBoardWebImg} />
@@ -73,7 +75,7 @@ function ProjectPreview() {
 
                     <div className="view-more">
                         <h1 className="section-subheading">View more projects I've worked on</h1>
-                        <button className="btn btn-primary">View All</button>
+                        <Link to="/projects" className="btn btn-primary">View All</Link>
                     </div>
                 </div>
             </div>

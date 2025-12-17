@@ -46,6 +46,12 @@ body {
   border: none;  
   font-size: 1.6rem;
   font-weight: bold;
+
+  /* Updated to work for Link tag buttons */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
 }
 
 .btn:hover {

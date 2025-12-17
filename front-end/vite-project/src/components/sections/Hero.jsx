@@ -1,5 +1,6 @@
 import "../../styles/Hero.css";
-import Profile_Icon from "../../assets/images/Profile_Icon.svg"
+import Profile_Icon from "../../assets/images/Profile_Icon.svg";
+import { Link, NavLink } from 'react-router-dom';
 
 function Hero() {
     return(
@@ -16,8 +17,8 @@ function Hero() {
                         </div>
 
                         <div className="hero-buttons">
-                            <button className="btn btn-primary">About Me</button>
-                            <button className="btn btn-ghost">Contact</button>
+                            <Link to="/about" className="btn btn-primary">About Me</Link>
+                            <Link to="/contact" className="btn btn-ghost">Contact</Link>
                         </div>
                     </div>
 

@@ -1,4 +1,5 @@
-import "../../styles/ContactCTA.css"
+import "../../styles/ContactCTA.css";
+import { Link } from "react-router-dom";
 
 function ContactCTA() {
     return (
@@ -19,7 +20,7 @@ function ContactCTA() {
                         </ul>
                     </div>
                     <div className="contactCTA-btns">
-                        <button className="btn btn-primary">Contact</button>
+                        <Link to="/contact" className="btn btn-primary">Contact</Link>
                         <button className="btn btn-ghost">Download CV</button>
                     </div>
                 </div>

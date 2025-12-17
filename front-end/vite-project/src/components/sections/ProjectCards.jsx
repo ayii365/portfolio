@@ -13,7 +13,7 @@ function ProjectCards() {
                 <div className="project-cards-inner">
 
                     {/* Medical Clinic Project */}
-                    <div className="project-card glow-card">
+                    <div id="medical-clinic" className="project-card glow-card">
                         <div className="project-media">
                             <video className="project-video" controls>
                                 <source src={medicalClinicVid} type="video/mp4">
@@ -48,7 +48,7 @@ function ProjectCards() {
                     </div>
 
                     {/* Pet Volunteer Project */}
-                    <div className="project-card glow-card">
+                    <div id="happy-pets" className="project-card glow-card">
                         <div className="project-media">
                             <video className="project-video" controls>
                                 <source src={happyPetsVid} type="video/mp4">
@@ -83,7 +83,7 @@ function ProjectCards() {
                     </div>
 
                     {/* Scoreboard App Project */}
-                    <div className="project-card glow-card">
+                    <div id="score-board" className="project-card glow-card">
                         <div className="project-media">
                             <video className="project-video" controls>
                                 <source src={scoreBoard} type="video/mp4">
