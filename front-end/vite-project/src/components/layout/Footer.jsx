@@ -4,18 +4,20 @@ import githubIcon from '../../assets/images/other-icons/github.svg';
 import linkedInIcon from '../../assets/images/other-icons/LinkedIn.svg';
 
 function Footer() {
+    const scrollToTop = () => window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+
     return (
         <div className="footer">
             <div className="container">
                 <div className="footer-inner">
                     <div className="footer-links">
-                        <NavLink to="/" className="nav-link">Home</NavLink>
+                        <NavLink to="/" className="nav-link" onClick={scrollToTop}>Home</NavLink>
                         <p>|</p>
-                        <NavLink to="/about" className="nav-link">About</NavLink>
+                        <NavLink to="/about" className="nav-link" onClick={scrollToTop}>About</NavLink>
                         <p>|</p>
-                        <NavLink to="/projects" className="nav-link">Projects</NavLink>
+                        <NavLink to="/projects" className="nav-link" onClick={scrollToTop}>Projects</NavLink>
                         <p>|</p>
-                        <NavLink to="/contact" className="nav-link">Contact</NavLink>  
+                        <NavLink to="/contact" className="nav-link" onClick={scrollToTop}>Contact</NavLink>  
                     </div>
                     <div className="icon-links">
                         <a href="https://github.com/ayii365" target="_blank"><img className="footer-icons" src={githubIcon} /></a>
