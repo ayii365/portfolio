@@ -1,4 +1,4 @@
 [build]
-  base = "front-end/vite-project"
-  command = "npm run build"
-  publish = "dist"
+  base    = "front-end/vite-project"
+  publish = "front-end/vite-project/dist"
+  command = "cd front-end/vite-project && npm run build"
