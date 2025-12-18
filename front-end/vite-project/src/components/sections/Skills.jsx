@@ -30,7 +30,7 @@ function Skills() {
                     <div className="skills-section-container">
 
                         <div className="skills-bucket glow-card">
-                            <h3 className="skills-bucket-heading">Front-end</h3>
+                            <h3 className="skills-bucket-heading">Front end</h3>
                             <ul className="skills-ul">
                                 <li className="skills-li">
                                     <img className="skills-icons" src={HTML_Icon}></img>
@@ -52,7 +52,7 @@ function Skills() {
                         </div>
 
                         <div className="skills-bucket glow-card">
-                            <h3 className="skills-bucket-heading">Back-end</h3>
+                            <h3 className="skills-bucket-heading">Back end</h3>
                             <ul className="skills-ul">
                                 <li className="skills-li">
                                     <img className="skills-icons" src={NodeJS_Icon}></img>
@@ -92,7 +92,7 @@ function Skills() {
                         </div>
 
                         <div className="skills-bucket glow-card">
-                            <h3 className="skills-bucket-heading">UI/UX Tools</h3>
+                            <h3 className="skills-bucket-heading">Design Tools</h3>
                             <ul className="skills-ul">
                                 <li className="skills-li">
                                     <img className="skills-icons" src={Figma_Icon}></img>

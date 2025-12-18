@@ -10,7 +10,7 @@ function Navbar() {
                 <div className="navbar-inner">
 
                     <div className="nav-left">
-                        <Link to="/" className="nav-logo" onClick={scrollToTop}>PORTFOLIO</Link>  
+                        <Link to="/" className="nav-logo" onClick={scrollToTop}>AYII MADUT</Link>  
                     </div>
 
                     <div className="nav-right">
