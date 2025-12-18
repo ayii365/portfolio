@@ -25,12 +25,18 @@
 }
 
 .form-input {
-    color: var(--text-muted);
+    width: 100%;
+    box-sizing: border-box;
+    color: var(--text-primary);
     border: solid 2px var(--glow);
     background-color: transparent;
     border-radius: 5px;
     font-size: 1.2rem;
+    padding: 0.65rem 0.8rem;
+}
 
+.form-input {
+    color: var(--text-muted);
 }
 
 .input-email {

@@ -15,26 +15,26 @@ function ContactForm() {
                         <div className="input-lvl">
                             <div className="input-section">
                                 <label className="form-labels" htmlFor="firstName">First Name:</label>
-                                <input id="firstName" name="firstName" className="form-input" type="text" required></input>
+                                <input id="firstName" name="firstName" className="form-input" type="text" required placeholder="First Name"></input>
                             </div>
 
                             <div className="input-section">
                                 <label className="form-labels" htmlFor="lastName">Last Name:</label>
-                                <input id="lastName" name="lastName" className="form-input" type="text" required></input>
+                                <input id="lastName" name="lastName" className="form-input" type="text" required placeholder="Last Name"></input>
                             </div>
                         </div>
 
                         <div className="input-lvl">
                             <div className="input-section input-email">
                                 <label className="form-labels" htmlFor="email">Email:</label>
-                                <input id="email" name="email" className="form-input" type="email" required></input>
+                                <input id="email" name="email" className="form-input" type="email" required placeholder="Email"></input>
                             </div>
                         </div>
 
                         <div className="input-lvl">
                             <div className="input-section input-msg">
                                 <label className="form-labels" htmlFor="message">Message:</label>
-                                <textarea id="message" name="message" className="form-input" type="text" required></textarea>
+                                <textarea id="message" name="message" className="form-input" type="text" required placeholder="Enter your message here"></textarea>
                             </div>
                         </div>
 
