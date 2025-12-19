@@ -55,3 +55,40 @@
     margin: 0;
     font-weight: 800;
 }
+
+@media (max-width: 480px) {
+    .skills {
+        margin-top: 8rem;
+    }
+
+    .skills-section-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 3rem;
+    }
+
+    .skills-bucket {
+        width: calc(50% - 3rem);
+        margin-bottom: 0.5rem;
+    }
+
+    .skills-bucket-heading{ 
+        font-size: 1.2rem;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .skills ul {
+        padding: 0;
+    }
+
+    .skills-icons {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .icon-name {
+        font-size: 0.9rem;
+    }
+}

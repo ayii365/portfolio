@@ -16,7 +16,7 @@ function ProjectPreview() {
                         <h2 className="section-subheading">A selection of my development work</h2>
                     </div>
 
-                    <div className="project-preview-card glow-card" >
+                    <div className="project-preview-card glow-card ppc1" >
                         <div className="card-text-content">
                             <h2>Medical Clinic Front-end (React)</h2>
                             <p>
@@ -35,7 +35,7 @@ function ProjectPreview() {
                         </div>
                     </div>
 
-                    <div className="project-preview-card glow-card" >
+                    <div className="project-preview-card glow-card ppc2" >
                         <div className="card-img">
                             <img src={happyPetsWebImg} />
                         </div>
@@ -54,7 +54,7 @@ function ProjectPreview() {
                         </div>
                     </div>
 
-                    <div className="project-preview-card glow-card" >
+                    <div className="project-preview-card glow-card ppc3" >
                         <div className="card-text-content">
                             <h2>Scoreboard App (Scrimba Course Project)</h2>
                             <p>

@@ -13,6 +13,10 @@
     align-items: center;
 }
 
+.contactCTA-text p {
+    text-align: center;
+}
+
 .bold-text {
     font-weight: 700;
 }
@@ -20,6 +24,9 @@
 .contactCTA-btns {
     display: flex;
     justify-content: center;
-    gap: 4rem;
+    gap: 2rem;
     margin-top: 2.5rem;
+}
+
+@media (max-width: 480px) {
 }
