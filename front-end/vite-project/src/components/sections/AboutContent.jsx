@@ -29,11 +29,11 @@ function AboutContent() {
                     </p>
 
                     <h1 className="about-h1">Skills Snapshot</h1>
-                    <ul className="about-p">
-                        <li>Front-end (React, HTML, CSS, JS)</li>
-                        <li>Back-end (Node/Express)</li>
-                        <li>Languages (C++, Python)</li>
-                        <li>Tools (Figma)</li>
+                    <ul >
+                        <li className="about-p">Front-end (React, HTML, CSS, JS)</li>
+                        <li className="about-p">Back-end (Node/Express)</li>
+                        <li className="about-p">Languages (C++, Python)</li>
+                        <li className="about-p">Tools (Figma)</li>
                     </ul>
 
                     <h1 className="about-h1">My Learning Approach</h1>

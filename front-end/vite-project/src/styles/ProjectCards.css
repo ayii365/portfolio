@@ -15,7 +15,6 @@
 
 .project-media {
     width: 100%;
-
 }
 
 .project-video {
@@ -45,5 +44,34 @@
 .project-p {
     margin-top: 0;
     margin-bottom: 4rem;
-    width: 800px;
+    max-width: 800px;
+}
+
+@media (max-width: 480px) {
+    .project-card {
+        padding: 0;
+    }
+
+    .project-heading {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .project-subheading {
+        color: var(--text-primary);
+        font-size: 1.2rem;
+    }
+
+    .project-text ul{
+        padding-left: 1.6rem;
+        max-width:fit-content;
+    }
+
+    .project-text ul li{
+        margin-bottom: 1rem;
+    }
+
+    .project-p{
+        width: 100%;
+    }
 }

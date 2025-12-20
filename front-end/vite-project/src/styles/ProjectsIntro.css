@@ -15,3 +15,13 @@
     width: 45rem;
     text-align: center;
 }
+
+@media (max-width: 480px) {
+    .projects-intro-inner p{
+        width: 100%;
+    }
+    .projects-intro {
+        margin-top: 4.5rem;
+        margin-bottom: 4.5rem;
+    }
+}
