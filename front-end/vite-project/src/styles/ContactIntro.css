@@ -2,3 +2,9 @@
 .contact-intro {
     margin-top: 14rem;
 }
+
+@media (max-width: 480px) {
+    .contact-intro {
+        margin-top: 4.5rem;
+    }
+}
