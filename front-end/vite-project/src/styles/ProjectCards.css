@@ -50,16 +50,28 @@
 @media (max-width: 480px) {
     .project-card {
         padding: 0;
+        margin-bottom: 4rem;
     }
 
     .project-heading {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         margin-bottom: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 
     .project-subheading {
         color: var(--text-primary);
         font-size: 1.2rem;
+    }
+
+    .project-video {
+        border-width: 2px;
+    }
+
+    .project-text {
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 
     .project-text ul{
@@ -73,5 +85,10 @@
 
     .project-p{
         width: 100%;
+    }
+
+    .project-p {
+        margin-top: 0;
+        margin-bottom: 2rem;
     }
 }
