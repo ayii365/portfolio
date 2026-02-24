@@ -9,7 +9,7 @@ function AboutContent() {
                     <h1 className="about-h1">About Me</h1>
                     <p className="about-p">
                         Hi, I’m Ayii. I am an undergraduate Computer Science student majoring in 
-                        Cybersecurity at the University of Adelaide. I enjoy building clean, 
+                        Cybersecurity at Adelaide University. I enjoy building clean, 
                         user-friendly front-end interfaces and I am currently expanding into 
                         full-stack development and secure software design.
                     </p>
