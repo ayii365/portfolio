@@ -3,6 +3,7 @@ import "../../styles/ProjectCards.css";
 /* Project videos */
 import medicalClinicVid from "../../assets/videos/my-clinic-frontend.mp4";
 import happyPetsVid from "../../assets/videos/happy-pets-video.mp4";
+import securePassVid from "../../assets/videos/secure-password-generator-clip.mp4";
 import scoreBoard from "../../assets/videos/score-board-video.mp4";
 
 
@@ -78,6 +79,43 @@ function ProjectCards() {
                                 <li>Strengthened group collaboration and communication</li>
                                 <li>Improved front-end and back-end development skills</li>
                                 <li>Learned how to build and integrate simple dynamic features with Express.js</li>
+                            </ul>
+                        </div>  
+                    </div>
+
+                    {/* Password Generator Project */}
+                    <div id="password-generator" className="project-card glow-card">
+                        <div className="project-media">
+                            <video className="project-video" controls>
+                                <source src={securePassVid} type="video/mp4">
+                                </source>
+                            </video>
+                            <h2 className="project-heading">Random Password Generator (JavaScript Project)</h2>
+                        </div>
+                        <div className="project-text">
+                            <h2 className="project-subheading">Overview</h2>
+                            <p className="project-p">
+                                A responsive random password generator built using Vanilla JavaScript. 
+                                The project focuses on secure password generation, DOM event handling, 
+                                and improving user experience through interactive features such as 
+                                clipboard copying, password strength feedback, and light/dark theme support.
+                            </p>
+
+                            <h2 className="project-subheading">Process</h2>
+                            <ul className="text-style project-p">
+                                <li>Implemented dynamic password generation with customizable length and character options</li>
+                                <li>Refactored inline HTML handlers into JavaScript event listeners for cleaner structure</li>
+                                <li>Added async clipboard functionality with user feedback and error handling</li>
+                                <li>Applied responsive design principles and theme toggling for improved accessibility</li>
+                                <li>Deployed the finished project to Netlify and tested across multiple screen sizes</li>
+                            </ul>
+
+                            <h2 className="project-subheading">Key Achievements</h2>
+                            <ul className="text-style project-p">
+                                <li>Strengthened understanding of JavaScript logic, arrays, and event-driven programming</li>
+                                <li>Designed a more secure password generator with enforced character requirements</li>
+                                <li>Improved UI/UX through responsive layout adjustments and status notifications</li>
+                                <li>Practiced clean Git workflows and incremental feature development</li>
                             </ul>
                         </div>  
                     </div>

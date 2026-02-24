@@ -1,6 +1,7 @@
 import "../../styles/ProjectPreview.css";
 import medicalClinicWebImg from "../../assets/images/project/medical-clinic.png";
 import happyPetsWebImg from "../../assets/images/project/happy-pets-short.png";
+import passwordGeneratorWebImg from "../../assets/images/project/password-generator.png"
 import scoreBoardWebImg from "../../assets/images/project/score-board.png";
 
 import { Link } from 'react-router-dom';
@@ -54,7 +55,29 @@ function ProjectPreview() {
                         </div>
                     </div>
 
-                    <div className="project-preview-card glow-card ppc3" >
+                    <div className="project-preview-card glow-card ppc3">
+                        <div className="card-text-content">
+                            <h2>Secure Password Generator (JavaScript Project)</h2>
+                            <p>
+                                A responsive random password generator built with Vanilla JavaScript, 
+                                featuring customizable length, character toggles, clipboard copy, and 
+                                password strength feedback.
+                                <br />
+                                <br />
+                                Refactored event handling for cleaner code structure, added light/dark 
+                                theme support, and deployed the finished project to Netlify.
+                            </p>
+                            <Link to="/projects#password-generator" className="btn btn-primary">Read more</Link>
+                        </div>
+                        <div className="card-img">
+                            <img src={passwordGeneratorWebImg} />
+                        </div>
+                    </div>
+
+                    <div className="project-preview-card glow-card ppc4" >
+                        <div className="card-img">
+                            <img src={scoreBoardWebImg} />
+                        </div>
                         <div className="card-text-content">
                             <h2>Scoreboard App (Scrimba Course Project)</h2>
                             <p>
@@ -67,9 +90,6 @@ function ProjectPreview() {
                                 mobile usability.
                             </p>
                             <Link to="/projects#score-board" className="btn btn-primary">Read more</Link>
-                        </div>
-                        <div className="card-img">
-                            <img src={scoreBoardWebImg} />
                         </div>
                     </div>
 
