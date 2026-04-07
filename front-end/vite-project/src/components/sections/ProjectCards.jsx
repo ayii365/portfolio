@@ -4,6 +4,7 @@ import "../../styles/ProjectCards.css";
 import medicalClinicVid from "../../assets/videos/my-clinic-frontend.mp4";
 import happyPetsVid from "../../assets/videos/happy-pets-video.mp4";
 import securePassVid from "../../assets/videos/secure-password-generator-clip.mp4";
+import unitConverter from "../../assets/videos/unit-converter-video.mp4";
 import scoreBoard from "../../assets/videos/score-board-video.mp4";
 
 
@@ -121,6 +122,45 @@ function ProjectCards() {
                     </div>
 
                     {/* Scoreboard App Project */}
+                    <div id="unit-converter" className="project-card glow-card">
+                        <div className="project-media">
+                            <video className="project-video" controls>
+                                <source src={unitConverter} type="video/mp4">
+                                </source>
+                            </video>
+                            <h2 className="project-heading">Unit Converter App (Javascript Project)</h2>
+                        </div>
+                        <div className="project-text">
+                            <h2 className="project-subheading">Overview</h2>
+                            <p className="project-p">
+                                This project was built to strengthen my JavaScript fundamentals, 
+                                focusing on DOM manipulation, event-driven programming, and UI/UX design. 
+                                The application converts between metric and imperial units (length, volume, and mass) 
+                                and includes additional features such as dynamic input resizing and a light/dark mode toggle.
+                            </p>
+
+                            <h2 className="project-subheading">Process</h2>
+                            <ul className="text-style project-p">
+                                <li>Designed and developed a responsive UI based on a custom layout</li>
+                                <li>Implemented conversion logic for multiple unit types using modular JavaScript functions</li>
+                                <li>Added event listeners to handle user input and dynamically update results</li>
+                                <li>Built a light/dark mode toggle using an interactive inline SVG element</li>
+                                <li>Enhanced user experience by implementing an auto-resizing input field</li>
+                                <li>Tested responsiveness and refined layout for different screen sizes</li>
+                            </ul>
+
+                            <h2 className="project-subheading">Key Acievements</h2>
+                            <ul className="text-style project-p">
+                                <li>Strengthened understanding of DOM manipulation and event handling</li>
+                                <li>Practiced writing more modular and maintainable JavaScript code</li>
+                                <li>Improved ability to build interactive and user-friendly UI features</li>
+                                <li>Gained experience implementing theme switching (light/dark mode)</li>
+                                <li>Applied responsive design principles for better usability across devices</li>
+                            </ul>
+                        </div>  
+                    </div>
+
+                    {/* Scoreboard App Project */}
                     <div id="score-board" className="project-card glow-card">
                         <div className="project-media">
                             <video className="project-video" controls>
@@ -131,7 +171,8 @@ function ProjectCards() {
                         </div>
                         <div className="project-text">
                             <h2 className="project-subheading">Overview</h2>
-                            <p className="project-p">This project was part of a Scrimba JavaScript course 
+                            <p className="project-p">
+                                This project was part of a Scrimba JavaScript course 
                                 designed to reinforce core JavaScript skills. I built a scoreboard app based 
                                 on a Figma design provided in the course and implemented optional stretch 
                                 goals to challenge myself.
